@@ -1,0 +1,18 @@
+[project]
+name = "package_test"
+version = "0.1.0"
+description = "python package test"
+authors = [
+    {name = "ChuhanZhou", email = "60944082+ChuhanZhou@users.noreply.github.com"},
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ['src']
